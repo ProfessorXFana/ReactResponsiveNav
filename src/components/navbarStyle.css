@@ -28,7 +28,7 @@ li{
     width: 100%;
     height: 10rem;
     display: grid;
-    grid-template-columns: 20rem 2fr 3fr 20rem;
+    grid-template-columns: 20rem 2fr 2fr 20rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
  }
@@ -55,10 +55,11 @@ li{
     text-transform: capitalize;
     color: rgba(0, 0, 3, 0.8);
     transition: 0.5s;
+    font-weight: 500;
  }
  .menu-link ul li:hover > a{
     transform-origin: left;
-    color: rgba(0, 0, 3, 1);
+    color: rgb(209, 103, 15);
     text-decoration: underline;
     transition: 0.5s;
 }
